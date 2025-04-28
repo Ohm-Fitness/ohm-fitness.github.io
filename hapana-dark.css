@@ -1,6 +1,6 @@
 /* 
- * Hapana Black & White Theme
- * Simple black/white theme with accent colors
+ * Hapana Pure Black & White Theme
+ * Using only #000000, #FFFFFF and accent colors
  */
 
 /* Base elements */
@@ -10,19 +10,13 @@ body, html, .widget-container {
 }
 
 /* Typography */
-.MuiTypography-root {
-  color: #FFFFFF;
-}
-
+.MuiTypography-root, 
 .MuiTypography-h1, 
 .MuiTypography-h2,
 .MuiTypography-h3,
 .MuiTypography-h4,
 .MuiTypography-h5,
-.MuiTypography-h6 {
-  color: #FFFFFF;
-}
-
+.MuiTypography-h6,
 .MuiTypography-body1,
 .MuiTypography-body2 {
   color: #FFFFFF;
@@ -35,11 +29,11 @@ body, html, .widget-container {
 }
 
 .Mui-button-OFS-containedPrimary:hover {
-  background-color: #2CB7E6;
+  background-color: #40C1F0;
 }
 
 .Mui-button-OFS-containedSecondary {
-  background-color: transparent;
+  background-color: #000000;
   color: #FFFFFF;
   border-color: #FFFFFF;
 }
@@ -58,20 +52,16 @@ body, html, .widget-container {
   color: #40C1F0;
 }
 
-.Mui-button-OFS-textSecondary {
-  color: #FFFFFF;
-}
-
+.Mui-button-OFS-textSecondary,
 .Mui-button-OFS-outlinedGray {
-  border-color: #FFFFFF;
   color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 
 /* Modal layouts */
 .Mui-modalLayout-OFS-dialogContainer {
   background-color: #000000;
   color: #FFFFFF;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Login button */
@@ -91,16 +81,13 @@ body, html, .widget-container {
 }
 
 .Mui-classesWidget-OFS-classList2 h4,
-.Mui-classesWidget-OFS-classList2 h3 {
-  color: #FFFFFF;
-}
-
+.Mui-classesWidget-OFS-classList2 h3,
 .Mui-classesWidget-OFS-classList2 p {
   color: #FFFFFF;
 }
 
 .Mui-classesWidget-OFS-classList2 button {
-  background-color: transparent;
+  background-color: #000000;
   color: #FFFFFF;
   border-color: #FFFFFF;
 }
@@ -123,10 +110,7 @@ body, html, .widget-container {
   color: #40C1F0;
 }
 
-.Mui-classSessionDetailsModal-OFS-h1 {
-  color: #FFFFFF;
-}
-
+.Mui-classSessionDetailsModal-OFS-h1,
 .Mui-classSessionDetailsModal-OFS-h4,
 .Mui-classSessionDetailsModal-OFS-medium,
 .Mui-classSessionDetailsModal-OFS-mediumPara {
@@ -141,7 +125,6 @@ body, html, .widget-container {
 .Mui-packageCard-OFS-card {
   background-color: #000000;
   border-color: #FFFFFF;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .Mui-packageCard-OFS-title {
@@ -225,10 +208,7 @@ body, html, .widget-container {
   border-color: #FFFFFF;
 }
 
-.Mui-profileCard-OFS-userEmail {
-  color: #FFFFFF;
-}
-
+.Mui-profileCard-OFS-userEmail,
 .Mui-profileCard-OFS-userName {
   color: #FFFFFF;
 }
@@ -254,34 +234,33 @@ body, html, .widget-container {
 }
 
 /* MUI Components */
-.MuiPaper-root {
+.MuiPaper-root,
+.MuiInputBase-root,
+.MuiSelect-root,
+.MuiMenuItem-root,
+.MuiList-root,
+.MuiContainer-root {
   background-color: #000000;
   color: #FFFFFF;
 }
 
-.MuiInputBase-root {
-  background-color: #000000;
+.MuiInputBase-input,
+.MuiInputLabel-root,
+.MuiListItemText-primary,
+.MuiListItemText-secondary,
+.MuiButtonBase-root,
+.MuiSvgIcon-root {
   color: #FFFFFF;
 }
 
-.MuiInputBase-input {
-  color: #FFFFFF;
-}
-
-.MuiInputLabel-root {
-  color: #FFFFFF;
-}
-
-.MuiInputLabel-root.Mui-focused {
+.MuiInputLabel-root.Mui-focused,
+.MuiCheckbox-root.Mui-checked,
+.MuiRadio-root.Mui-checked {
   color: #40C1F0;
 }
 
-.MuiSelect-root {
-  background-color: #000000;
-  color: #FFFFFF;
-}
-
-.MuiMenuItem-root {
+.MuiCheckbox-root,
+.MuiRadio-root {
   color: #FFFFFF;
 }
 
@@ -289,24 +268,8 @@ body, html, .widget-container {
   background-color: #000000;
 }
 
-.MuiCheckbox-root {
-  color: #FFFFFF;
-}
-
-.MuiCheckbox-root.Mui-checked {
-  color: #40C1F0;
-}
-
-.MuiRadio-root {
-  color: #FFFFFF;
-}
-
-.MuiRadio-root.Mui-checked {
-  color: #40C1F0;
-}
-
 .Mui-loadMore-OFS-loadMore {
-  background-color: transparent;
+  background-color: #000000;
   color: #40C1F0;
   border-color: #FFFFFF;
 }
@@ -317,32 +280,6 @@ body, html, .widget-container {
   border-left-color: #40C1F0;
 }
 
-.MuiList-root {
-  background-color: #000000;
-  color: #FFFFFF;
-}
-
 .MuiListItem-root {
   border-bottom-color: #FFFFFF;
-}
-
-.MuiListItemText-primary {
-  color: #FFFFFF;
-}
-
-.MuiListItemText-secondary {
-  color: #FFFFFF;
-}
-
-.MuiContainer-root {
-  background-color: #000000;
-  color: #FFFFFF;
-}
-
-.MuiButtonBase-root {
-  color: #FFFFFF;
-}
-
-.MuiSvgIcon-root {
-  color: #FFFFFF;
 }
