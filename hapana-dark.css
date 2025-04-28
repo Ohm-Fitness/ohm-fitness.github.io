@@ -1,13 +1,11 @@
-```css
 /* 
  * Hapana Dark Mode CSS Theme
- * A modern dark theme for Hapana widgets
+ * Custom dark theme for Hapana embed widgets
  */
 
 /* ========== COMMON ELEMENTS ========== */
-/* Font */
-body, html, .MuiTypography-root, button, input, select, textarea {
-  font-family: 'Montserrat', sans-serif;
+/* Body and base elements */
+body, html, .widget-container {
   background-color: #0F0F0F;
   color: #FFFFFF;
 }
@@ -34,21 +32,18 @@ body, html, .MuiTypography-root, button, input, select, textarea {
 .MuiTypography-body1,
 .MuiTypography-body2 {
   color: #AAAAAA;
-  font-weight: 500;
 }
 
 /* Buttons */
 .Mui-button-OFS-button {
   transition: all 0.3s ease;
   border-radius: 30px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
 }
 
 /* Primary contained button */
 .Mui-button-OFS-containedPrimary {
   background-color: #40C1F0;
-  color: #ffffff;
+  color: #FFFFFF;
   border: none;
   padding: 10px 25px;
 }
@@ -132,7 +127,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   font-weight: 600;
   border-bottom: 1px solid #2A2A2A;
   padding-bottom: 8px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classesWidget-OFS-classList2 {
@@ -158,7 +152,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   font-size: 16px;
   font-weight: 600;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classesWidget-OFS-classList2 p {
@@ -166,7 +159,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   font-size: 14px;
   margin: 5px 0 0 0;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classesWidget-OFS-classList2 h3 {
@@ -174,7 +166,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   font-size: 22px;
   font-weight: 700;
   margin: 0 0 6px 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classesWidget-OFS-classList2 button {
@@ -185,7 +176,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   padding: 10px 25px;
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -216,21 +206,18 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-radius: 20px;
   display: inline-block;
   margin-top: 10px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classSessionDetailsModal-OFS-h1 {
   color: #FFFFFF;
   font-size: 24px;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classSessionDetailsModal-OFS-h4 {
   color: #AAAAAA;
   font-size: 18px;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classSessionDetailsModal-OFS-medium,
@@ -238,14 +225,12 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   color: #AAAAAA;
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classSessionDetailsModal-OFS-readMore {
   color: #40C1F0;
   text-decoration: none;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-classSessionDetailsModal-OFS-readMore:hover {
@@ -271,7 +256,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-cardsList-OFS-title {
@@ -280,7 +264,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-bottom: 1px solid #2A2A2A;
   padding-bottom: 12px;
   margin-bottom: 16px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-packageDetails-OFS-standAlonePackageDetails {
@@ -288,7 +271,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   color: #FFFFFF;
   padding: 20px;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-packageDetailModal-OFS-titleContainer {
@@ -301,7 +283,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* ========== CONTENT SUITE WIDGET ========== */
@@ -312,7 +293,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 12px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-categoryCard-OFS-contentPreview {
@@ -321,14 +301,12 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 12px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-videoDetail-OFS-title {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 22px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-filter-OFS-select {
@@ -337,7 +315,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border: 1px solid #2A2A2A;
   border-radius: 30px;
   padding: 8px 16px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -348,7 +325,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 16px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-sessionTypesList-OFS-cardTitle {
@@ -356,13 +332,11 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 12px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-sessionsList-OFS-card {
   border-bottom: 1px solid #2A2A2A;
   padding: 16px 0;
-  font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   border-radius: 0;
   border-left: none;
@@ -376,7 +350,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-bottom: 1px solid #2A2A2A;
   padding-bottom: 12px;
   margin: 20px 0 12px 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-sessionsList-OFS-containerHeader {
@@ -386,14 +359,12 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-radius: 8px 8px 0 0;
   border-bottom: 1px solid #2A2A2A;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* ========== DASHBOARD WIDGET ========== */
 .Mui-menuDashboard-OFS-menu {
   background-color: #1E1E1E;
   border-right: 1px solid #2A2A2A;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-profileCard-OFS-container {
@@ -402,7 +373,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-statsDashboard-OFS-container {
@@ -410,21 +380,18 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border: 1px solid #2A2A2A;
   border-radius: 8px;
   padding: 20px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-profileCard-OFS-userEmail {
   color: #AAAAAA;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-profileCard-OFS-userName {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* ========== GIFT CARD WIDGET ========== */
@@ -434,7 +401,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-formGiftCard-OFS-giftCard {
@@ -443,7 +409,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 12px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-formGiftCard-OFS-previewContainer {
@@ -451,14 +416,12 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   border: 1px solid #40C1F0;
   border-radius: 8px;
   padding: 20px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .Mui-formGiftCard-OFS-previewPrice {
   color: #40C1F0;
   font-weight: 700;
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* ========== ADDITIONAL MUI COMPONENTS ========== */
@@ -467,7 +430,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
 .MuiPaper-root {
   background-color: #151515;
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* MUI Inputs */
@@ -475,17 +437,14 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   background-color: #1E1E1E;
   color: #FFFFFF;
   border-radius: 4px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .MuiInputBase-input {
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .MuiInputLabel-root {
   color: #AAAAAA;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .MuiInputLabel-root.Mui-focused {
@@ -496,12 +455,10 @@ body, html, .MuiTypography-root, button, input, select, textarea {
 .MuiSelect-root {
   background-color: #1E1E1E;
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .MuiMenuItem-root {
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .MuiMenuItem-root:hover {
@@ -536,7 +493,6 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
@@ -550,30 +506,25 @@ body, html, .MuiTypography-root, button, input, select, textarea {
   color: #FFFFFF;
   border-left: 4px solid #40C1F0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* List styles */
 .MuiList-root {
   background-color: #151515;
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .MuiListItem-root {
   border-bottom: 1px solid #2A2A2A;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .MuiListItemText-primary {
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
 .MuiListItemText-secondary {
   color: #AAAAAA;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -581,20 +532,11 @@ body, html, .MuiTypography-root, button, input, select, textarea {
 .MuiContainer-root {
   background-color: #0F0F0F;
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* General background for widget */
-body, html, .widget-container {
-  background-color: #0F0F0F;
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* Button Base */
 .MuiButtonBase-root {
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* SVG Icons */
@@ -624,4 +566,3 @@ body, html, .widget-container {
     font-size: 14px;
   }
 }
-```
