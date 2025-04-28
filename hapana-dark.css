@@ -1,0 +1,644 @@
+/* 
+ * Hapana Dark Mode CSS Theme
+ * A modern dark theme for Hapana widgets
+ */
+
+/* ========== BASE VARIABLES ========== */
+:root {
+    --dark-bg-primary: #0F0F0F;
+    --dark-bg-secondary: #151515;
+    --dark-bg-tertiary: #1E1E1E;
+    --dark-text-primary: #FFFFFF;
+    --dark-text-secondary: #AAAAAA;
+    --dark-text-muted: #777777;
+    --dark-border: #2A2A2A;
+    --dark-accent-blue: #40C1F0;
+    --dark-accent-blue-hover: #2CB7E6;
+    --dark-accent-red: #EA7676;
+    --dark-accent-red-hover: #E05E5E;
+    --dark-success: #4caf50;
+    --dark-closed: #777777;
+    --dark-completed: #EA7676;
+    --dark-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ========== COMMON ELEMENTS ========== */
+  /* Font */
+  body, html, .MuiTypography-root, button, input, select, textarea {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--dark-bg-primary);
+    color: var(--dark-text-primary);
+  }
+  
+  /* Typography */
+  .MuiTypography-root {
+    color: var(--dark-text-primary);
+  }
+  
+  .MuiTypography-h1, 
+  .MuiTypography-h2,
+  .MuiTypography-h3 {
+    color: var(--dark-text-primary);
+    font-weight: 700;
+  }
+  
+  .MuiTypography-h4,
+  .MuiTypography-h5,
+  .MuiTypography-h6 {
+    color: var(--dark-text-primary);
+    font-weight: 600;
+  }
+  
+  .MuiTypography-body1,
+  .MuiTypography-body2 {
+    color: var(--dark-text-secondary);
+    font-weight: 500;
+  }
+  
+  /* Buttons */
+  .Mui-button-OFS-button {
+    transition: all 0.3s ease;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Primary contained button */
+  .Mui-button-OFS-containedPrimary {
+    background-color: var(--dark-accent-blue);
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+  }
+  
+  .Mui-button-OFS-containedPrimary:hover {
+    background-color: var(--dark-accent-blue-hover);
+  }
+  
+  /* Secondary contained button */
+  .Mui-button-OFS-containedSecondary {
+    background-color: transparent;
+    color: var(--dark-text-primary);
+    border: 1px solid #333;
+  }
+  
+  .Mui-button-OFS-containedSecondary:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Primary outlined button */
+  .Mui-button-OFS-outlinedPrimary {
+    background-color: transparent;
+    color: var(--dark-accent-blue);
+    border: 1px solid var(--dark-accent-blue);
+    border-radius: 30px;
+    padding: 10px 25px;
+  }
+  
+  .Mui-button-OFS-outlinedPrimary:hover {
+    background-color: rgba(64, 193, 240, 0.1);
+  }
+  
+  /* Secondary outlined button */
+  .Mui-button-OFS-outlinedSecondary {
+    background-color: transparent;
+    color: var(--dark-text-primary);
+    border: 1px solid #333;
+    border-radius: 30px;
+    padding: 10px 25px;
+  }
+  
+  .Mui-button-OFS-outlinedSecondary:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Text buttons */
+  .Mui-button-OFS-textPrimary {
+    color: var(--dark-accent-blue);
+  }
+  
+  .Mui-button-OFS-textSecondary {
+    color: var(--dark-text-secondary);
+  }
+  
+  .Mui-button-OFS-outlinedGray {
+    border: 1px solid #333;
+    color: var(--dark-text-secondary);
+    border-radius: 30px;
+  }
+  
+  /* Modal layouts */
+  .Mui-modalLayout-OFS-dialogContainer {
+    background-color: var(--dark-bg-secondary);
+    color: var(--dark-text-primary);
+    border-radius: 8px;
+    box-shadow: var(--dark-card-shadow);
+  }
+  
+  /* Login button modification */
+  .Mui-loginModal-OFS-dialogActions > div {
+    margin: 8px auto;
+    padding: 4px;
+    border: 1px solid var(--dark-accent-blue);
+    background-color: var(--dark-bg-tertiary);
+    border-radius: 30px;
+  }
+  
+  /* ========== CLASSES WIDGET ========== */
+  .Mui-classesWidget-OFS-h4 {
+    color: var(--dark-text-primary);
+    font-weight: 600;
+    border-bottom: 1px solid var(--dark-border);
+    padding-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classesWidget-OFS-classList2 {
+    border-bottom: 1px solid var(--dark-border);
+    padding: 20px 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+  
+  .Mui-classesWidget-OFS-classList2:hover {
+    background-color: transparent;
+  }
+  
+  .Mui-classesWidget-OFS-classList2 h4 {
+    color: var(--dark-text-primary);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classesWidget-OFS-classList2 p {
+    color: var(--dark-text-secondary);
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classesWidget-OFS-classList2 h3 {
+    color: var(--dark-text-primary);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classesWidget-OFS-classList2 button {
+    background-color: transparent;
+    color: var(--dark-text-primary);
+    border: 1px solid var(--dark-text-primary);
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .Mui-classesWidget-OFS-classList2 button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Status indicators */
+  .Mui-classesWidget-OFS-classList2 .completed,
+  .Mui-classSessionDetailsModal-OFS-completed {
+    color: var(--dark-accent-red);
+  }
+  
+  .Mui-classesWidget-OFS-classList2 .closed,
+  .Mui-classSessionDetailsModal-OFS-closed {
+    color: var(--dark-closed);
+  }
+  
+  /* Class badge */
+  .Mui-classesWidget-OFS-classType,
+  .Mui-classesWidget-OFS-timeZone {
+    background-color: var(--dark-bg-tertiary);
+    color: var(--dark-accent-blue);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classSessionDetailsModal-OFS-h1 {
+    color: var(--dark-text-primary);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classSessionDetailsModal-OFS-h4 {
+    color: var(--dark-text-secondary);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classSessionDetailsModal-OFS-medium,
+  .Mui-classSessionDetailsModal-OFS-mediumPara {
+    color: var(--dark-text-secondary);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classSessionDetailsModal-OFS-readMore {
+    color: var(--dark-accent-blue);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-classSessionDetailsModal-OFS-readMore:hover {
+    text-decoration: underline;
+  }
+  
+  /* ========== PACKAGE WIDGET ========== */
+  .Mui-packageCard-OFS-card {
+    background-color: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .Mui-packageCard-OFS-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Mui-packageCard-OFS-title {
+    color: var(--dark-text-primary);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-cardsList-OFS-title {
+    color: var(--dark-text-primary);
+    font-weight: 700;
+    border-bottom: 1px solid var(--dark-border);
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-packageDetails-OFS-standAlonePackageDetails {
+    background-color: var(--dark-bg-secondary);
+    color: var(--dark-text-primary);
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-packageDetailModal-OFS-titleContainer {
+    border-bottom: 1px solid var(--dark-border);
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .Mui-packageDetailModal-OFS-titleContainer h1 {
+    color: var(--dark-text-primary);
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* ========== CONTENT SUITE WIDGET ========== */
+  .Mui-contentTypesList-OFS-card {
+    background-color: var(--dark-bg-secondary);
+    color: var(--dark-text-primary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-categoryCard-OFS-contentPreview {
+    background-color: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-videoDetail-OFS-title {
+    color: var(--dark-text-primary);
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-filter-OFS-select {
+    background-color: var(--dark-bg-tertiary);
+    color: var(--dark-text-primary);
+    border: 1px solid var(--dark-border);
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  
+  /* ========== PRIVATES WIDGET ========== */
+  .Mui-sessionTypesList-OFS-card {
+    background-color: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-sessionTypesList-OFS-cardTitle {
+    color: var(--dark-text-primary);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-sessionsList-OFS-card {
+    border-bottom: 1px solid var(--dark-border);
+    padding: 16px 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+  
+  .Mui-sessionsList-OFS-currentDateSection {
+    color: var(--dark-text-primary);
+    font-weight: 700;
+    border-bottom: 1px solid var(--dark-border);
+    padding-bottom: 12px;
+    margin: 20px 0 12px 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-sessionsList-OFS-containerHeader {
+    background-color: var(--dark-bg-tertiary);
+    color: var(--dark-text-primary);
+    padding: 16px;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid var(--dark-border);
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* ========== DASHBOARD WIDGET ========== */
+  .Mui-menuDashboard-OFS-menu {
+    background-color: var(--dark-bg-tertiary);
+    border-right: 1px solid var(--dark-border);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-profileCard-OFS-container {
+    background-color: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-statsDashboard-OFS-container {
+    background-color: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-profileCard-OFS-userEmail {
+    color: var(--dark-text-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-profileCard-OFS-userName {
+    color: var(--dark-text-primary);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* ========== GIFT CARD WIDGET ========== */
+  .Mui-formGiftCard-OFS-formSectionItem {
+    background-color: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-formGiftCard-OFS-giftCard {
+    background-color: var(--dark-bg-tertiary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-formGiftCard-OFS-previewContainer {
+    background-color: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-accent-blue);
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Mui-formGiftCard-OFS-previewPrice {
+    color: var(--dark-accent-blue);
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* ========== ADDITIONAL MUI COMPONENTS ========== */
+  
+  /* MUI Paper */
+  .MuiPaper-root {
+    background-color: var(--dark-bg-secondary);
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* MUI Inputs */
+  .MuiInputBase-root {
+    background-color: var(--dark-bg-tertiary);
+    color: var(--dark-text-primary);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .MuiInputBase-input {
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .MuiInputLabel-root {
+    color: var(--dark-text-secondary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .MuiInputLabel-root.Mui-focused {
+    color: var(--dark-accent-blue);
+  }
+  
+  /* MUI Select */
+  .MuiSelect-root {
+    background-color: var(--dark-bg-tertiary);
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .MuiMenuItem-root {
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .MuiMenuItem-root:hover {
+    background-color: var(--dark-bg-tertiary);
+  }
+  
+  /* MUI Checkboxes and Radio Buttons */
+  .MuiCheckbox-root {
+    color: var(--dark-text-secondary);
+  }
+  
+  .MuiCheckbox-root.Mui-checked {
+    color: var(--dark-accent-blue);
+  }
+  
+  .MuiRadio-root {
+    color: var(--dark-text-secondary);
+  }
+  
+  .MuiRadio-root.Mui-checked {
+    color: var(--dark-accent-blue);
+  }
+  
+  /* Load More Button */
+  .Mui-loadMore-OFS-loadMore {
+    background-color: transparent;
+    color: var(--dark-accent-blue);
+    border: 1px solid #333;
+    border-radius: 30px;
+    margin-top: 16px;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  
+  .Mui-loadMore-OFS-loadMore:hover {
+    background-color: rgba(64, 193, 240, 0.1);
+  }
+  
+  /* Toast notification */
+  .Mui-toast-OFS-toast {
+    background-color: var(--dark-bg-secondary);
+    color: var(--dark-text-primary);
+    border-left: 4px solid var(--dark-accent-blue);
+    box-shadow: var(--dark-card-shadow);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* List styles */
+  .MuiList-root {
+    background-color: var(--dark-bg-secondary);
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .MuiListItem-root {
+    border-bottom: 1px solid var(--dark-border);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .MuiListItemText-primary {
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  
+  .MuiListItemText-secondary {
+    color: var(--dark-text-secondary);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  
+  /* Container styles */
+  .MuiContainer-root {
+    background-color: var(--dark-bg-primary);
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* General background for widget */
+  body, html, .widget-container {
+    background-color: var(--dark-bg-primary);
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Button Base */
+  .MuiButtonBase-root {
+    color: var(--dark-text-primary);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* SVG Icons */
+  .MuiSvgIcon-root {
+    color: var(--dark-text-secondary);
+  }
+  
+  /* ========== RESPONSIVENESS ========== */
+  @media (max-width: 600px) {
+    .Mui-packageCard-OFS-card,
+    .Mui-contentTypesList-OFS-card,
+    .Mui-sessionTypesList-OFS-card,
+    .Mui-formGiftCard-OFS-formSectionItem {
+      padding: 16px;
+    }
+    
+    .Mui-classSessionDetailsModal-OFS-h1 {
+      font-size: 20px;
+    }
+    
+    .Mui-classSessionDetailsModal-OFS-h4 {
+      font-size: 16px;
+    }
+    
+    .Mui-classesWidget-OFS-classList2 button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
