@@ -4,7 +4,7 @@
  */
 
 /* Base elements */
-body, html, .widget-container {
+body, html, .widget-container, .hapana-base {
   background-color: #0F0F0F;
   color: #FFFFFF;
 }
@@ -36,6 +36,8 @@ body, html, .widget-container {
 
 .Mui-button-OFS-containedPrimary:hover {
   background-color: #2CB7E6;
+  box-shadow: 0 2px 8px rgba(64, 193, 240, 0.3);
+  transition: all 0.2s ease;
 }
 
 .Mui-button-OFS-containedSecondary {
@@ -49,9 +51,21 @@ body, html, .widget-container {
   border-color: #40C1F0;
 }
 
+.Mui-button-OFS-outlinedPrimary:hover {
+  background-color: rgba(64, 193, 240, 0.1);
+  transition: all 0.2s ease;
+}
+
 .Mui-button-OFS-outlinedSecondary {
   color: #FFFFFF;
   border-color: #333;
+}
+
+.Mui-button-OFS-outlinedSecondary:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: #40C1F0;
+  color: #40C1F0;
+  transition: all 0.2s ease;
 }
 
 .Mui-button-OFS-textPrimary {
@@ -88,6 +102,12 @@ body, html, .widget-container {
 
 .Mui-classesWidget-OFS-classList2 {
   border-bottom-color: #2A2A2A;
+  transition: background-color 0.2s ease;
+}
+
+.Mui-classesWidget-OFS-classList2:hover {
+  background-color: #1A1A1A;
+  cursor: pointer;
 }
 
 .Mui-classesWidget-OFS-classList2 h4,
@@ -102,7 +122,7 @@ body, html, .widget-container {
 .Mui-classesWidget-OFS-classList2 button {
   background-color: transparent;
   color: #FFFFFF;
-  border-color: #FFFFFF;
+  border-color: #444444;
 }
 
 /* Status indicators */
@@ -345,4 +365,174 @@ body, html, .widget-container {
 
 .MuiSvgIcon-root {
   color: #AAAAAA;
+}
+
+/* Additional Hapana classes from the classes widget */
+.Mui-class-OFS-root_container {
+  background-color: #0F0F0F;
+  color: #FFFFFF;
+}
+
+/* Header and Filter styling */
+.Mui-classListHeader-OFS-paper {
+  background-color: #151515;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Mui-classListHeader-OFS-textGray64 {
+  color: #AAAAAA;
+}
+
+.Mui-classListHeader-OFS-borderRight {
+  border-right: 1px solid #2A2A2A;
+}
+
+/* Classes list styling */
+.Mui-classesWidget-OFS-listHead {
+  padding: 16px 0 8px 0;
+  margin-top: 8px;
+  border-bottom: 1px solid #2A2A2A;
+}
+
+.Mui-classesWidget-OFS-p0 {
+  padding: 0;
+}
+
+.Mui-classesWidget-OFS-item2 {
+  padding: 12px 8px;
+}
+
+.Mui-classesWidget-OFS-trainers {
+  color: #AAAAAA;
+}
+
+.Mui-classesWidget-OFS-subTitle {
+  color: #888888;
+  font-size: 0.9rem;
+}
+
+/* Session item styling */
+.Mui-classesWidget-OFS-sessionName h3 {
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+/* Book button styling & hover effects */
+.Mui-button-OFS-small {
+  padding: 4px 12px;
+  min-width: 80px;
+  height: 32px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+}
+
+.Mui-button-OFS-notRounded {
+  border-radius: 4px;
+}
+
+/* Calendar & filter icon styling */
+.Mui-classListHeader-OFS-icMedium,
+.Mui-classListHeader-OFS-icSmall {
+  color: #888888;
+}
+
+/* User login button */
+.Mui-classListHeader-OFS-userLogin {
+  color: #40C1F0;
+  border: none;
+}
+
+.Mui-classListHeader-OFS-clientLogin {
+  text-align: right;
+}
+
+/* Popup menu styling */
+.MuiPopover-root .MuiPaper-root {
+  background-color: #1A1A1A;
+  border: 1px solid #2A2A2A;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Mui-classListHeader-OFS-ddMenu {
+  color: #FFFFFF;
+}
+
+.Mui-classListHeader-OFS-ddMenu:hover {
+  background-color: #2A2A2A;
+}
+
+.Mui-classListHeader-OFS-listIcon {
+  color: #40C1F0;
+}
+
+/* Load more button styling */
+.Mui-loadMore-OFS-loadMore {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.Mui-loadMore-OFS-loadMore button {
+  background-color: #1A1A1A;
+  border: 1px solid #333;
+  color: #40C1F0;
+  padding: 8px 24px;
+  transition: all 0.2s ease;
+}
+
+.Mui-loadMore-OFS-loadMore button:hover {
+  background-color: #222222;
+  border-color: #40C1F0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Add hover effects to create a more intuitive experience */
+.MuiButton-root:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.Mui-classesWidget-OFS-classList2 button:hover {
+  border-color: #40C1F0;
+  color: #40C1F0;
+  transition: all 0.2s ease;
+}
+
+/* Fix for specific class locations */
+.Mui-classesWidget-OFS-subTitle.undefined {
+  color: #777777;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+/* Animations for better UX */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.MuiPopover-root .MuiPaper-root {
+  animation: fadeIn 0.2s ease;
+}
+
+/* Focus states for accessibility */
+.MuiButtonBase-root:focus {
+  outline: 2px solid rgba(64, 193, 240, 0.5);
+  outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .Mui-classesWidget-OFS-classList2 {
+    padding: 8px 0;
+  }
+  
+  .Mui-classesWidget-OFS-h4 {
+    font-size: 1.1rem;
+  }
+  
+  .Mui-classesWidget-OFS-h3 {
+    font-size: 1rem;
+  }
 }
