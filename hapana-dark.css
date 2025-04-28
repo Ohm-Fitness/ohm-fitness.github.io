@@ -1,11 +1,11 @@
 /* 
- * Hapana Dark Mode Colors
- * Dark theme colors for Hapana embed widgets
+ * Hapana Black & White Theme
+ * Simple black/white theme with accent colors
  */
 
 /* Base elements */
 body, html, .widget-container {
-  background-color: #0F0F0F;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
@@ -25,7 +25,7 @@ body, html, .widget-container {
 
 .MuiTypography-body1,
 .MuiTypography-body2 {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 /* Buttons */
@@ -41,7 +41,7 @@ body, html, .widget-container {
 .Mui-button-OFS-containedSecondary {
   background-color: transparent;
   color: #FFFFFF;
-  border-color: #333;
+  border-color: #FFFFFF;
 }
 
 .Mui-button-OFS-outlinedPrimary {
@@ -51,7 +51,7 @@ body, html, .widget-container {
 
 .Mui-button-OFS-outlinedSecondary {
   color: #FFFFFF;
-  border-color: #333;
+  border-color: #FFFFFF;
 }
 
 .Mui-button-OFS-textPrimary {
@@ -59,17 +59,17 @@ body, html, .widget-container {
 }
 
 .Mui-button-OFS-textSecondary {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 .Mui-button-OFS-outlinedGray {
-  border-color: #333;
-  color: #AAAAAA;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 /* Modal layouts */
 .Mui-modalLayout-OFS-dialogContainer {
-  background-color: #151515;
+  background-color: #000000;
   color: #FFFFFF;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -77,17 +77,17 @@ body, html, .widget-container {
 /* Login button */
 .Mui-loginModal-OFS-dialogActions > div {
   border-color: #40C1F0;
-  background-color: #1E1E1E;
+  background-color: #000000;
 }
 
 /* Classes Widget */
 .Mui-classesWidget-OFS-h4 {
   color: #FFFFFF;
-  border-bottom-color: #2A2A2A;
+  border-bottom-color: #FFFFFF;
 }
 
 .Mui-classesWidget-OFS-classList2 {
-  border-bottom-color: #2A2A2A;
+  border-bottom-color: #FFFFFF;
 }
 
 .Mui-classesWidget-OFS-classList2 h4,
@@ -96,7 +96,7 @@ body, html, .widget-container {
 }
 
 .Mui-classesWidget-OFS-classList2 p {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 .Mui-classesWidget-OFS-classList2 button {
@@ -113,13 +113,13 @@ body, html, .widget-container {
 
 .Mui-classesWidget-OFS-classList2 .closed,
 .Mui-classSessionDetailsModal-OFS-closed {
-  color: #777777;
+  color: #FFFFFF;
 }
 
 /* Class badge */
 .Mui-classesWidget-OFS-classType,
 .Mui-classesWidget-OFS-timeZone {
-  background-color: #1E1E1E;
+  background-color: #000000;
   color: #40C1F0;
 }
 
@@ -130,7 +130,7 @@ body, html, .widget-container {
 .Mui-classSessionDetailsModal-OFS-h4,
 .Mui-classSessionDetailsModal-OFS-medium,
 .Mui-classSessionDetailsModal-OFS-mediumPara {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 .Mui-classSessionDetailsModal-OFS-readMore {
@@ -139,8 +139,8 @@ body, html, .widget-container {
 
 /* Package Widget */
 .Mui-packageCard-OFS-card {
-  background-color: #151515;
-  border-color: #2A2A2A;
+  background-color: #000000;
+  border-color: #FFFFFF;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -150,16 +150,16 @@ body, html, .widget-container {
 
 .Mui-cardsList-OFS-title {
   color: #FFFFFF;
-  border-bottom-color: #2A2A2A;
+  border-bottom-color: #FFFFFF;
 }
 
 .Mui-packageDetails-OFS-standAlonePackageDetails {
-  background-color: #151515;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
 .Mui-packageDetailModal-OFS-titleContainer {
-  border-bottom-color: #2A2A2A;
+  border-bottom-color: #FFFFFF;
 }
 
 .Mui-packageDetailModal-OFS-titleContainer h1 {
@@ -168,14 +168,14 @@ body, html, .widget-container {
 
 /* Content Suite Widget */
 .Mui-contentTypesList-OFS-card {
-  background-color: #151515;
+  background-color: #000000;
   color: #FFFFFF;
-  border-color: #2A2A2A;
+  border-color: #FFFFFF;
 }
 
 .Mui-categoryCard-OFS-contentPreview {
-  background-color: #151515;
-  border-color: #2A2A2A;
+  background-color: #000000;
+  border-color: #FFFFFF;
 }
 
 .Mui-videoDetail-OFS-title {
@@ -183,15 +183,15 @@ body, html, .widget-container {
 }
 
 .Mui-filter-OFS-select {
-  background-color: #1E1E1E;
+  background-color: #000000;
   color: #FFFFFF;
-  border-color: #2A2A2A;
+  border-color: #FFFFFF;
 }
 
 /* Privates Widget */
 .Mui-sessionTypesList-OFS-card {
-  background-color: #151515;
-  border-color: #2A2A2A;
+  background-color: #000000;
+  border-color: #FFFFFF;
 }
 
 .Mui-sessionTypesList-OFS-cardTitle {
@@ -199,34 +199,34 @@ body, html, .widget-container {
 }
 
 .Mui-sessionsList-OFS-card {
-  border-bottom-color: #2A2A2A;
+  border-bottom-color: #FFFFFF;
 }
 
 .Mui-sessionsList-OFS-currentDateSection {
   color: #FFFFFF;
-  border-bottom-color: #2A2A2A;
+  border-bottom-color: #FFFFFF;
 }
 
 .Mui-sessionsList-OFS-containerHeader {
-  background-color: #1E1E1E;
+  background-color: #000000;
   color: #FFFFFF;
-  border-bottom-color: #2A2A2A;
+  border-bottom-color: #FFFFFF;
 }
 
 /* Dashboard Widget */
 .Mui-menuDashboard-OFS-menu {
-  background-color: #1E1E1E;
-  border-right-color: #2A2A2A;
+  background-color: #000000;
+  border-right-color: #FFFFFF;
 }
 
 .Mui-profileCard-OFS-container,
 .Mui-statsDashboard-OFS-container {
-  background-color: #151515;
-  border-color: #2A2A2A;
+  background-color: #000000;
+  border-color: #FFFFFF;
 }
 
 .Mui-profileCard-OFS-userEmail {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 .Mui-profileCard-OFS-userName {
@@ -235,17 +235,17 @@ body, html, .widget-container {
 
 /* Gift Card Widget */
 .Mui-formGiftCard-OFS-formSectionItem {
-  background-color: #151515;
-  border-color: #2A2A2A;
+  background-color: #000000;
+  border-color: #FFFFFF;
 }
 
 .Mui-formGiftCard-OFS-giftCard {
-  background-color: #1E1E1E;
-  border-color: #2A2A2A;
+  background-color: #000000;
+  border-color: #FFFFFF;
 }
 
 .Mui-formGiftCard-OFS-previewContainer {
-  background-color: #151515;
+  background-color: #000000;
   border-color: #40C1F0;
 }
 
@@ -255,12 +255,12 @@ body, html, .widget-container {
 
 /* MUI Components */
 .MuiPaper-root {
-  background-color: #151515;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
 .MuiInputBase-root {
-  background-color: #1E1E1E;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
@@ -269,7 +269,7 @@ body, html, .widget-container {
 }
 
 .MuiInputLabel-root {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 .MuiInputLabel-root.Mui-focused {
@@ -277,7 +277,7 @@ body, html, .widget-container {
 }
 
 .MuiSelect-root {
-  background-color: #1E1E1E;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
@@ -286,11 +286,11 @@ body, html, .widget-container {
 }
 
 .MuiMenuItem-root:hover {
-  background-color: #1E1E1E;
+  background-color: #000000;
 }
 
 .MuiCheckbox-root {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 .MuiCheckbox-root.Mui-checked {
@@ -298,7 +298,7 @@ body, html, .widget-container {
 }
 
 .MuiRadio-root {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 .MuiRadio-root.Mui-checked {
@@ -308,22 +308,22 @@ body, html, .widget-container {
 .Mui-loadMore-OFS-loadMore {
   background-color: transparent;
   color: #40C1F0;
-  border-color: #333;
+  border-color: #FFFFFF;
 }
 
 .Mui-toast-OFS-toast {
-  background-color: #151515;
+  background-color: #000000;
   color: #FFFFFF;
   border-left-color: #40C1F0;
 }
 
 .MuiList-root {
-  background-color: #151515;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
 .MuiListItem-root {
-  border-bottom-color: #2A2A2A;
+  border-bottom-color: #FFFFFF;
 }
 
 .MuiListItemText-primary {
@@ -331,11 +331,11 @@ body, html, .widget-container {
 }
 
 .MuiListItemText-secondary {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
 
 .MuiContainer-root {
-  background-color: #0F0F0F;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
@@ -344,5 +344,5 @@ body, html, .widget-container {
 }
 
 .MuiSvgIcon-root {
-  color: #AAAAAA;
+  color: #FFFFFF;
 }
