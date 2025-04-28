@@ -1,10 +1,9 @@
 /* 
- * Hapana Dark Mode CSS Theme
- * Custom dark theme for Hapana embed widgets
+ * Hapana Dark Mode Colors
+ * Dark theme colors for Hapana embed widgets
  */
 
-/* ========== COMMON ELEMENTS ========== */
-/* Body and base elements */
+/* Base elements */
 body, html, .widget-container {
   background-color: #0F0F0F;
   color: #FFFFFF;
@@ -17,16 +16,11 @@ body, html, .widget-container {
 
 .MuiTypography-h1, 
 .MuiTypography-h2,
-.MuiTypography-h3 {
-  color: #FFFFFF;
-  font-weight: 700;
-}
-
+.MuiTypography-h3,
 .MuiTypography-h4,
 .MuiTypography-h5,
 .MuiTypography-h6 {
   color: #FFFFFF;
-  font-weight: 600;
 }
 
 .MuiTypography-body1,
@@ -35,61 +29,31 @@ body, html, .widget-container {
 }
 
 /* Buttons */
-.Mui-button-OFS-button {
-  transition: all 0.3s ease;
-  border-radius: 30px;
-}
-
-/* Primary contained button */
 .Mui-button-OFS-containedPrimary {
   background-color: #40C1F0;
   color: #FFFFFF;
-  border: none;
-  padding: 10px 25px;
 }
 
 .Mui-button-OFS-containedPrimary:hover {
   background-color: #2CB7E6;
 }
 
-/* Secondary contained button */
 .Mui-button-OFS-containedSecondary {
   background-color: transparent;
   color: #FFFFFF;
-  border: 1px solid #333;
+  border-color: #333;
 }
 
-.Mui-button-OFS-containedSecondary:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-/* Primary outlined button */
 .Mui-button-OFS-outlinedPrimary {
-  background-color: transparent;
   color: #40C1F0;
-  border: 1px solid #40C1F0;
-  border-radius: 30px;
-  padding: 10px 25px;
+  border-color: #40C1F0;
 }
 
-.Mui-button-OFS-outlinedPrimary:hover {
-  background-color: rgba(64, 193, 240, 0.1);
-}
-
-/* Secondary outlined button */
 .Mui-button-OFS-outlinedSecondary {
-  background-color: transparent;
   color: #FFFFFF;
-  border: 1px solid #333;
-  border-radius: 30px;
-  padding: 10px 25px;
+  border-color: #333;
 }
 
-.Mui-button-OFS-outlinedSecondary:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-/* Text buttons */
 .Mui-button-OFS-textPrimary {
   color: #40C1F0;
 }
@@ -99,89 +63,46 @@ body, html, .widget-container {
 }
 
 .Mui-button-OFS-outlinedGray {
-  border: 1px solid #333;
+  border-color: #333;
   color: #AAAAAA;
-  border-radius: 30px;
 }
 
 /* Modal layouts */
 .Mui-modalLayout-OFS-dialogContainer {
   background-color: #151515;
   color: #FFFFFF;
-  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Login button modification */
+/* Login button */
 .Mui-loginModal-OFS-dialogActions > div {
-  margin: 8px auto;
-  padding: 4px;
-  border: 1px solid #40C1F0;
+  border-color: #40C1F0;
   background-color: #1E1E1E;
-  border-radius: 30px;
 }
 
-/* ========== CLASSES WIDGET ========== */
+/* Classes Widget */
 .Mui-classesWidget-OFS-h4 {
   color: #FFFFFF;
-  font-weight: 600;
-  border-bottom: 1px solid #2A2A2A;
-  padding-bottom: 8px;
+  border-bottom-color: #2A2A2A;
 }
 
 .Mui-classesWidget-OFS-classList2 {
-  border-bottom: 1px solid #2A2A2A;
-  padding: 20px 0;
-  margin-bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 0;
-  border-left: none;
-  border-right: none;
-  border-top: none;
+  border-bottom-color: #2A2A2A;
 }
 
-.Mui-classesWidget-OFS-classList2:hover {
-  background-color: transparent;
-}
-
-.Mui-classesWidget-OFS-classList2 h4 {
+.Mui-classesWidget-OFS-classList2 h4,
+.Mui-classesWidget-OFS-classList2 h3 {
   color: #FFFFFF;
-  font-size: 16px;
-  font-weight: 600;
-  margin: 0;
 }
 
 .Mui-classesWidget-OFS-classList2 p {
   color: #AAAAAA;
-  font-size: 14px;
-  margin: 5px 0 0 0;
-  font-weight: 500;
-}
-
-.Mui-classesWidget-OFS-classList2 h3 {
-  color: #FFFFFF;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0 0 6px 0;
 }
 
 .Mui-classesWidget-OFS-classList2 button {
   background-color: transparent;
   color: #FFFFFF;
-  border: 1px solid #FFFFFF;
-  border-radius: 30px;
-  padding: 10px 25px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.Mui-classesWidget-OFS-classList2 button:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  border-color: #FFFFFF;
 }
 
 /* Status indicators */
@@ -200,243 +121,147 @@ body, html, .widget-container {
 .Mui-classesWidget-OFS-timeZone {
   background-color: #1E1E1E;
   color: #40C1F0;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 6px 16px;
-  border-radius: 20px;
-  display: inline-block;
-  margin-top: 10px;
 }
 
 .Mui-classSessionDetailsModal-OFS-h1 {
   color: #FFFFFF;
-  font-size: 24px;
-  font-weight: 700;
 }
 
-.Mui-classSessionDetailsModal-OFS-h4 {
-  color: #AAAAAA;
-  font-size: 18px;
-  font-weight: 500;
-}
-
+.Mui-classSessionDetailsModal-OFS-h4,
 .Mui-classSessionDetailsModal-OFS-medium,
 .Mui-classSessionDetailsModal-OFS-mediumPara {
   color: #AAAAAA;
-  font-size: 15px;
-  font-weight: 500;
 }
 
 .Mui-classSessionDetailsModal-OFS-readMore {
   color: #40C1F0;
-  text-decoration: none;
-  font-weight: 600;
 }
 
-.Mui-classSessionDetailsModal-OFS-readMore:hover {
-  text-decoration: underline;
-}
-
-/* ========== PACKAGE WIDGET ========== */
+/* Package Widget */
 .Mui-packageCard-OFS-card {
   background-color: #151515;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  padding: 20px;
-  margin-bottom: 16px;
-}
-
-.Mui-packageCard-OFS-card:hover {
-  transform: translateY(-3px);
+  border-color: #2A2A2A;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .Mui-packageCard-OFS-title {
   color: #FFFFFF;
-  font-weight: 700;
-  font-size: 20px;
 }
 
 .Mui-cardsList-OFS-title {
   color: #FFFFFF;
-  font-weight: 700;
-  border-bottom: 1px solid #2A2A2A;
-  padding-bottom: 12px;
-  margin-bottom: 16px;
+  border-bottom-color: #2A2A2A;
 }
 
 .Mui-packageDetails-OFS-standAlonePackageDetails {
   background-color: #151515;
   color: #FFFFFF;
-  padding: 20px;
-  border-radius: 8px;
 }
 
 .Mui-packageDetailModal-OFS-titleContainer {
-  border-bottom: 1px solid #2A2A2A;
-  padding-bottom: 16px;
-  margin-bottom: 20px;
+  border-bottom-color: #2A2A2A;
 }
 
 .Mui-packageDetailModal-OFS-titleContainer h1 {
   color: #FFFFFF;
-  font-weight: 700;
-  font-size: 24px;
 }
 
-/* ========== CONTENT SUITE WIDGET ========== */
+/* Content Suite Widget */
 .Mui-contentTypesList-OFS-card {
   background-color: #151515;
   color: #FFFFFF;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 12px;
+  border-color: #2A2A2A;
 }
 
 .Mui-categoryCard-OFS-contentPreview {
   background-color: #151515;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 12px;
+  border-color: #2A2A2A;
 }
 
 .Mui-videoDetail-OFS-title {
   color: #FFFFFF;
-  font-weight: 700;
-  font-size: 22px;
 }
 
 .Mui-filter-OFS-select {
   background-color: #1E1E1E;
   color: #FFFFFF;
-  border: 1px solid #2A2A2A;
-  border-radius: 30px;
-  padding: 8px 16px;
-  font-weight: 500;
+  border-color: #2A2A2A;
 }
 
-/* ========== PRIVATES WIDGET ========== */
+/* Privates Widget */
 .Mui-sessionTypesList-OFS-card {
   background-color: #151515;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 16px;
+  border-color: #2A2A2A;
 }
 
 .Mui-sessionTypesList-OFS-cardTitle {
   color: #FFFFFF;
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 12px;
 }
 
 .Mui-sessionsList-OFS-card {
-  border-bottom: 1px solid #2A2A2A;
-  padding: 16px 0;
-  background-color: transparent;
-  border-radius: 0;
-  border-left: none;
-  border-right: none;
-  border-top: none;
+  border-bottom-color: #2A2A2A;
 }
 
 .Mui-sessionsList-OFS-currentDateSection {
   color: #FFFFFF;
-  font-weight: 700;
-  border-bottom: 1px solid #2A2A2A;
-  padding-bottom: 12px;
-  margin: 20px 0 12px 0;
+  border-bottom-color: #2A2A2A;
 }
 
 .Mui-sessionsList-OFS-containerHeader {
   background-color: #1E1E1E;
   color: #FFFFFF;
-  padding: 16px;
-  border-radius: 8px 8px 0 0;
-  border-bottom: 1px solid #2A2A2A;
-  font-weight: 600;
+  border-bottom-color: #2A2A2A;
 }
 
-/* ========== DASHBOARD WIDGET ========== */
+/* Dashboard Widget */
 .Mui-menuDashboard-OFS-menu {
   background-color: #1E1E1E;
-  border-right: 1px solid #2A2A2A;
+  border-right-color: #2A2A2A;
 }
 
-.Mui-profileCard-OFS-container {
-  background-color: #151515;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
+.Mui-profileCard-OFS-container,
 .Mui-statsDashboard-OFS-container {
   background-color: #151515;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  padding: 20px;
+  border-color: #2A2A2A;
 }
 
 .Mui-profileCard-OFS-userEmail {
   color: #AAAAAA;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 .Mui-profileCard-OFS-userName {
   color: #FFFFFF;
-  font-weight: 700;
-  font-size: 18px;
 }
 
-/* ========== GIFT CARD WIDGET ========== */
+/* Gift Card Widget */
 .Mui-formGiftCard-OFS-formSectionItem {
   background-color: #151515;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
+  border-color: #2A2A2A;
 }
 
 .Mui-formGiftCard-OFS-giftCard {
   background-color: #1E1E1E;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 12px;
+  border-color: #2A2A2A;
 }
 
 .Mui-formGiftCard-OFS-previewContainer {
   background-color: #151515;
-  border: 1px solid #40C1F0;
-  border-radius: 8px;
-  padding: 20px;
+  border-color: #40C1F0;
 }
 
 .Mui-formGiftCard-OFS-previewPrice {
   color: #40C1F0;
-  font-weight: 700;
-  font-size: 24px;
 }
 
-/* ========== ADDITIONAL MUI COMPONENTS ========== */
-
-/* MUI Paper */
+/* MUI Components */
 .MuiPaper-root {
   background-color: #151515;
   color: #FFFFFF;
 }
 
-/* MUI Inputs */
 .MuiInputBase-root {
   background-color: #1E1E1E;
   color: #FFFFFF;
-  border-radius: 4px;
 }
 
 .MuiInputBase-input {
@@ -451,7 +276,6 @@ body, html, .widget-container {
   color: #40C1F0;
 }
 
-/* MUI Select */
 .MuiSelect-root {
   background-color: #1E1E1E;
   color: #FFFFFF;
@@ -465,7 +289,6 @@ body, html, .widget-container {
   background-color: #1E1E1E;
 }
 
-/* MUI Checkboxes and Radio Buttons */
 .MuiCheckbox-root {
   color: #AAAAAA;
 }
@@ -482,87 +305,44 @@ body, html, .widget-container {
   color: #40C1F0;
 }
 
-/* Load More Button */
 .Mui-loadMore-OFS-loadMore {
   background-color: transparent;
   color: #40C1F0;
-  border: 1px solid #333;
-  border-radius: 30px;
-  margin-top: 16px;
-  padding: 10px 25px;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-weight: 600;
+  border-color: #333;
 }
 
-.Mui-loadMore-OFS-loadMore:hover {
-  background-color: rgba(64, 193, 240, 0.1);
-}
-
-/* Toast notification */
 .Mui-toast-OFS-toast {
   background-color: #151515;
   color: #FFFFFF;
-  border-left: 4px solid #40C1F0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-left-color: #40C1F0;
 }
 
-/* List styles */
 .MuiList-root {
   background-color: #151515;
   color: #FFFFFF;
 }
 
 .MuiListItem-root {
-  border-bottom: 1px solid #2A2A2A;
+  border-bottom-color: #2A2A2A;
 }
 
 .MuiListItemText-primary {
   color: #FFFFFF;
-  font-weight: 600;
 }
 
 .MuiListItemText-secondary {
   color: #AAAAAA;
-  font-weight: 500;
 }
 
-/* Container styles */
 .MuiContainer-root {
   background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
-/* Button Base */
 .MuiButtonBase-root {
   color: #FFFFFF;
 }
 
-/* SVG Icons */
 .MuiSvgIcon-root {
   color: #AAAAAA;
-}
-
-/* ========== RESPONSIVENESS ========== */
-@media (max-width: 600px) {
-  .Mui-packageCard-OFS-card,
-  .Mui-contentTypesList-OFS-card,
-  .Mui-sessionTypesList-OFS-card,
-  .Mui-formGiftCard-OFS-formSectionItem {
-    padding: 16px;
-  }
-  
-  .Mui-classSessionDetailsModal-OFS-h1 {
-    font-size: 20px;
-  }
-  
-  .Mui-classSessionDetailsModal-OFS-h4 {
-    font-size: 16px;
-  }
-  
-  .Mui-classesWidget-OFS-classList2 button {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
 }
