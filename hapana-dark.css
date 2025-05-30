@@ -1,1 +1,308 @@
+* {
+  background-color: black;
+}
+.Mui-classListHeader-OFS-textGray64 {
+  color: #ffffff;
+  background-color: black;
+}
+.Mui-classesWidget-OFS-classList2 h4 {
+  color: #ffffff;
+  background-color: black;
+}
+.Mui-classesWidget-OFS-subTitle {
+  color: #ffffff;
+  font-size: 14px;
+  background-color: black;
+}
+.Mui-classesWidget-OFS-classList2 h3 {
+  color: #ffffff;
+  background-color: black;
+}
+.Mui-classesWidget-OFS-item2 {
+  color: #ffffff;
+  background-color: black;
+  display: flex;
+  padding: 8px 16px;
+  min-height: 80px;
+  align-items: center;
+  align-content: center;
+}
+.Mui-classesWidget-OFS-pointer {
+  cursor: pointer;
+  background-color: black;
+}
+.Mui-classesWidget-OFS-listHead {
+  border: 1px solid #edeeee;
+  border-top: 0;
+  color: white;
+  min-height: 48px;
+  font-weight: 600;
+  padding-top: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 14px;
+  background-color: #000000;
+}
+.Mui-classesWidget-OFS-h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+}
+.MuiGrid-align-items-xs-center {
+  align-items: center;
+  background-color: black;
+}
+.Mui-classListHeader-OFS-paper {
+  padding: 0px 0px;
+  z-index: 1;
+  position: relative;
+  flex-grow: 1;
+  box-shadow: 0px 1px 4px rgba(30, 32, 38, 0.16);
+  border-radius: 0;
+}
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-color: black;
+}
+.Mui-classSessionDetailsModal-OFS-h1 {
+  color: #ffffff;
+  font-size: 24px;
+  max-width: 350px;
+  align-items: center;
+  font-weight: 600;
+  line-height: 32px;
+}
+.Mui-classSessionDetailsModal-OFS-h4 {
+  color: #c5c5c5;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.Mui-classSessionDetailsModal-OFS-textGray64 {
+  color: #cacaca;
+}
+.Mui-classSessionDetailsModal-OFS-bigDivider {
+  width: calc(100% + 64px);
+  height: 8px;
+  margin: 8px -32px 32px -32px;
+  background-color: #454545;
+}
+.Mui-classSessionDetailsModal-OFS-locationName {
+  color: #d1d1d1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.Mui-classSessionDetailsModal-OFS-textGray80 {
+  color: #cccccc;
+}
+.Mui-classSessionDetailsModal-OFS-medium {
+  color: #d3d3d3;
+  font-size: 14px;
+  line-height: 20px;
+}
+.Mui-classSessionDetailsModal-OFS-textGray56 {
+  color: #d5d5d5;
+}
+.Mui-loginModal-OFS-signUp {
+  padding: 32px;
+  justify-content: center;
+  background-color: #000000;
+}
+.Mui-loginModal-OFS-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2;
+}
+.Mui-loginModal-OFS-subtitle {
+  color: #cdcdcd;
+  font-size: 14px;
+  max-width: 272px;
+  font-weight: 400;
+}
+.Mui-loginModal-OFS-link {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 2;
+}
+.MuiInputBase-root {
+  color: rgb(216 216 216 / 87%);
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: Averta, sans-serif;
+  font-weight: 400;
+  line-height: 1.1876em;
+}
+.Mui-modalLayout-OFS-dialogTitle {
+  display: flex;
+  padding: 20px 32px;
+  z-index: 1190;
+  background: #000000;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Mui-modalLayout-OFS-dialogContent {
+  overflow-x: inherit;
+  overflow-y: auto;
+  background: black;
+}
+.Mui-modalLayout-OFS-dialogContainer {
+  height: 688px;
+  margin: 0;
+  display: flex;
+  max-width: 552px;
+  box-shadow: 0px 1px 4px rgba(30, 32, 38, 0.16);
+  border-radius: 8px;
+  flex-direction: column;
+}
+.Mui-modalLayout-OFS-dialogActions {
+  color: #33cbff;
+  display: flex;
+  padding: 24px 32px;
+  z-index: 1190;
+  background: #000000;
+  align-items: center;
+}
+.Mui-button-OFS-containedPrimary {
+  border: 2px solid #1f2025;
+  background: #e5e5e5;
+}
+.Mui-button-OFS-containedPrimary * {
+  color: #000000;
+}
+.Mui-classFilersModal-OFS-actionTitle {
+  color: #ffffff;
+  font-weight: 600;
+}
 
+.Mui-classFilersModal-OFS-actionTitle {
+  color: #000000;
+  font-weight: 600;
+  background-color: #fffbfb;
+}
+.Mui-classFilersModal-OFS-sectionTitle {
+  color: #d7d8dc;
+  font-size: 14px;
+  margin-top: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.Mui-classFilersModal-OFS-label p {
+  color: #dddfe2;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Mui-classFilersModal-OFS-bigDivider {
+  width: calc(100% + 40px);
+  height: 8px;
+  margin: 32px -20px 4px -20px;
+  background-color: #2a2b2f;
+}
+
+.Mui-button-OFS-button {
+  font-size: 14px;
+  background-color: white;
+  box-shadow: none;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+  border-radius: 24px;
+  text-transform: none;
+}
+
+.Mui-calendar-OFS-toolbarContent:first-child {
+  color: #e5e5e7;
+  margin: 8px 0px 8px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.MuiPickersToolbar-root .MuiPickersToolbarText-root.Mui-selected {
+  color: #e5e5e5;
+}
+
+.MuiPickersToolbar-root .MuiPickersToolbarText-root {
+  color: #dcdcdc;
+}
+
+.MuiPickersToolbar-root {
+  color: #dcdee1;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  flex-direction: column;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  background-color: white;
+}
+.Mui-calendar-OFS-dialogContainer {
+  margin: 0;
+  box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.039),
+    0px 3.75px 11px rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  background: black;
+}
+.MuiPickersDay-root {
+  color: rgb(255 255 255 / 87%);
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  font-size: 12px;
+  font-family: Averta, sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.MuiPickersCalendar-weekDayLabel {
+  color: rgb(255 252 252 / 54%);
+  width: 36px;
+  height: 40px;
+  margin: 0 2px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.MuiTypography-displayInline {
+  display: inline;
+  color: white;
+}
+.MuiSvgIcon-root {
+  fill: rgb(255 255 255 / 54%);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  font-size: 24px;
+  transition: fill 200mscubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiPickersCalendarHeader-monthText {
+  margin-right: 4px;
+  color: white;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+  color: white;
+}
+.MuiPickersToolbar-root .MuiPickersToolbarText-root.Mui-selected {
+  color: #cfcfcf;
+}
+.MuiPickersToolbar-root .MuiPickersToolbarText-root {
+  color: #ffffff;
+}
